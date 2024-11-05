@@ -6,7 +6,7 @@ public class ChangeScaleCapsule : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
-    private float _maxSize = 2f;
+    private float _maxSize = 4f;
 
     private void Update()
     {

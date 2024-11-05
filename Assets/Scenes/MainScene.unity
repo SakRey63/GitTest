@@ -501,6 +501,8 @@ GameObject:
   - component: {fileID: 411343821}
   - component: {fileID: 411343820}
   - component: {fileID: 411343819}
+  - component: {fileID: 411343825}
+  - component: {fileID: 411343824}
   - component: {fileID: 411343823}
   m_Layer: 0
   m_Name: UniversalCube
@@ -604,12 +606,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 411343818}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d7a7abc0affc7443954eb1d0dfdc7ee, type: 3}
+  m_Script: {fileID: 11500000, guid: 8dc470b2c4e59ea4098e7bda54c3a3fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _movementDirection: {x: 0, y: 0, z: 0.02}
-  _rotationSpeed: 10
-  _scaleSpeed: 0.1
+  _movementDirection: {x: 0, y: 0, z: 0.03}
+--- !u!114 &411343824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411343818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31d8d46785ca0ad499a00b6229d0a863, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 15
+--- !u!114 &411343825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 411343818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6dda5666c2298146b0dd0e21b5d8926, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 0.2
 --- !u!1 &504115485
 GameObject:
   m_ObjectHideFlags: 0
