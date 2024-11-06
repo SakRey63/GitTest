@@ -1,9 +1,6 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class RotationCube : MonoBehaviour
+public class Rotate : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
